@@ -1,0 +1,101 @@
+
+body {
+    box-sizing: border-box;
+    background-color: #282A36;
+    color: #F8F8F2;
+
+    /* tudo centralizado */
+    padding: 5px;
+    margin: auto;
+    width: 50%;
+}
+
+h1 {
+    padding: 20px;
+
+    color: #50FA7B;
+    text-align: center;
+
+    border: solid #F8F8F2 2px;
+    border-radius: 10px;
+}
+
+.card {
+    position: relative;
+
+    padding: 10px;
+    margin-bottom: 10px;
+
+    background-color: #44475A;
+    font-size: 24px;
+
+    border: solid #F8F8F2 2px;
+    border-radius: 10px;
+}
+
+.card p {
+    text-align: center;
+}
+
+a {
+    color: #8BE9FD;
+    text-decoration: none;
+}
+
+.paragrafo {
+    padding: 20px;
+    margin-bottom: 40px;
+
+    color: #282A36;
+    background-color: #F5F5F5;
+}
+
+.paragrafo-destacado {
+    background-color: #F0CCE2;
+}
+
+
+
+/* home button configs */
+.card-home-button {
+    /* center button within card*/
+    display: flex;
+    justify-content: center;
+}
+
+.home-button {
+    padding: 10px 40px;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+
+    border-radius: 10px;
+    background-color: #44475A;
+    color: #F8F8F2;
+    border: 2px solid #F1FA8C;
+
+    cursor: pointer;
+
+    /* config do hover */
+    transition-duration: 0.4s;
+}
+
+.home-button:hover {
+    background-color: #F1FA8C;
+    color: #282A36;
+}
+
+
+
+/* ATENÇÃO: as informações de CSS que foram passadas no curso, assim como o que acoonteceu com HTML, foram muito introdutórias. algumas coisinhas eu relembrei, então fiz as anotações, mas de resto, apenas visualizei as aulas. a partir dos próximo módulos, coloco a mão na massa pra valer. */
+
+
+/* anotação interessante sobre vh e vw
+vh - unidade de medida para altura que é baseada na tela do user
+vw - unidade de medida para largura que é baseada na tela do user
+
+min-heigth - mínimo para a altura, mas se necessário, pode extender
+min-width - mínimo para a largura, mas se necessário, pode extender */
+
+/* box-sizing: border-box - serve para ignorar os cálculos manuais do padding e do margin. você define uma div com um "box-sizing: border-box" para automatizar esses cálculos*/
